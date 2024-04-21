@@ -2,25 +2,38 @@
 
 This project serves as part of the Computer Programmer I Examination for Baguio General Hospital and Medical Center.
 
-
-## Overview
-
-The system is developed using Python's Tkinter library for the graphical user interface. It allows users to perform various operations such as adding, updating, and deleting patient records, as well as managing patient admissions.
-
 ## Features
 
-- **Patient Management**: Add, update, and delete patient records.
-- **Admission Management**: Fetch and display patient admissions within the current day, admit new patients, and discharge patients.
-- **User Interface**: Utilizes a simple and intuitive user interface designed using Tkinter.
+- **Display Patients**: View a list of patients including their name, date of birth, and address.
+- **Add Patient**: Add a new patient to the system by providing their name, date of birth, and address.
+- **Update Patient**: Modify existing patient information such as name, date of birth, and address.
+- **Delete Patient**: Remove a patient from the system.
+- **Admission Management**: Manage patient admissions, including fetching current admissions, admitting new patients, and discharging patients.
 
-## Usage
+## How It Works
 
-To use the application:
+The Patient Management System is implemented using the Tkinter library in Python. Here's a breakdown of how the code works:
 
-1. Run the Python script (`patient_management.py`).
-2. The main window displays the list of current patients.
-3. Use the buttons provided to perform operations such as adding, updating, and deleting patient records.
-4. Click on the "Admission Management" button to manage patient admissions.
+1. **Main Window**: The main window displays a list of patients and provides buttons for managing patients and admissions.
+
+2. **Patient Management**:
+   - `display_patients()`: Retrieves patient data and displays it in a text widget.
+   - `add_patient()`: Allows the user to input data for a new patient and adds them to the system.
+   - `update_patient()`: Enables updating existing patient information.
+   - `delete_patient()`: Removes a patient from the system.
+   
+3. **Admission Management**:
+   - `open_admission_ui()`: Opens a separate window for admission management, displaying current admissions and providing options to fetch, admit, and discharge patients.
+   - Placeholder functions (`fetch_admissions()`, `admit_patient()`, `discharge_patient()`) are included for managing admissions.
+
+## Getting Started
+
+To run the Patient Management System:
+1. Ensure to have Python installed on your system.
+2. Clone this repository.
+3. Navigate to the project directory in terminal.
+4. Run the `patient_management.py` file using Python.
+
 
 
 - Sophia Nicole Garcia
