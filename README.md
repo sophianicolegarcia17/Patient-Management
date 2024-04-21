@@ -2,6 +2,10 @@
 
 This project serves as part of the Computer Programmer I Examination for Baguio General Hospital and Medical Center.
 
+
+<img src="Patient Management.JPG" alt="Patient Management Screenshot" width="400">
+<img src="Admissions Management.JPG" alt="Admissions Management Screenshot" width="400">
+
 ## Features
 
 - **Display Patients**: View a list of patients including their name, date of birth, and address.
